@@ -1,4 +1,121 @@
 site_name: My Docs
 
+nav:
+  - Home: index.md
+  - Setup: 
+    - 1: setup.md
+    - 2: setup.md
+    - 3: setup.md
+    - 4: setup.md
+    - 5: setup.md
+    - 6: setup.md
+    - 7: setup.md
+    - 8: setup.md
+  - About:
+    - about.md
+    - about.md
+    - about.md
+    - about.md
+    - about.md
+    - about.md
+    - about.md
+  - Blog: 
+    - blog.md
+    - blog.md
+    - blog.md
+    - blog.md
+    - blog.md
+    - blog.md
+    - blog.md
+
+# Setup 
+
 theme:
   name: material
+
+  # changing the colors ---------------------------------------
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  # changing the fonts -----------------------------------------
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  # Changeing the language -------------------------------------
+  # language: fa
+
+  # changing the logo and icons --------------------------------
+  # logo: assets/logo.png
+
+  # setting up navigation --------------------------------------
+  features:
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.instant.preview
+    # - navigation.tracking
+
+    - navigation.tabs
+    # - navigation.tabs.sticky
+
+    # - navigation.sections
+    # - navigation.expand
+
+    - navigation.path
+    # - navigation.prune 
+
+    # - navigation.indexes
+
+    # - toc.follow
+    - toc.integrate   # good feature 
+
+    - navigation.top  # back to top button
+
+
+
+# markdown_extensions:
+#   - toc:
+#       permalink: true
+  
+
+# extra:
+#   alternate:
+#     - name: English
+#       link: /en/ 
+#       lang: en
+#     - name: Persian
+#       link: /fa/
+#       lang: fa
+
+# extra_css:
+#   - stylesheets/extra.css
+
+
+# for hiding the navigation and toc (used in top of .md file)
+# ---
+# hide:
+#   - navigation
+#   - toc
+# ---
+
+# # Page title
+# ...
