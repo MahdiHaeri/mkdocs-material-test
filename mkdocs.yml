@@ -37,12 +37,16 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
+      primary: blue
+      accent: blue
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
+      primary: red
+      accent: red
       scheme: default 
       toggle:
         icon: material/brightness-7
@@ -50,6 +54,8 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: orange
+      accent: orange
       scheme: slate
       toggle:
         icon: material/brightness-4
@@ -68,11 +74,11 @@ theme:
 
   # setting up navigation --------------------------------------
   features:
-    # - navigation.instant
-    # - navigation.instant.prefetch
-    # - navigation.instant.progress
-    # - navigation.instant.preview
-    # - navigation.tracking
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
 
     - navigation.tabs
     # - navigation.tabs.sticky
