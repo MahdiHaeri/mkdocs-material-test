@@ -1,4 +1,5 @@
 site_name: My Docs
+site_url: https://mahdihaeri.github.io/mkdocs-material-test/
 
 nav:
   - Home: index.md
@@ -94,7 +95,16 @@ theme:
 
     - navigation.top  # back to top button
 
+    # setup the search -----------------------------------------
+    - search.suggest # search suggest completion
+    - search.highlight # search highlight
+    - search.share # deep linking
 
+
+
+
+plugins:
+  - search
 
 # markdown_extensions:
 #   - toc:
