@@ -1,3 +1,7 @@
+---
+title: "Your Page Title"
+---
+
 # Welcome to Setup
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

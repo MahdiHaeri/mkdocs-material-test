@@ -104,7 +104,9 @@ theme:
 
 
 plugins:
-  - search
+  - search # search plugin
+  - social # social media links
+
 
 # markdown_extensions:
 #   - toc:
@@ -133,3 +135,9 @@ plugins:
 
 # # Page title
 # ...
+
+# -------------- for google analytics -------------------------
+# extra:
+#   analytics:
+#     provider: google
+#     property: G-XXXXXXXXXX
