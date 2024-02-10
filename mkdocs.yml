@@ -95,8 +95,11 @@ theme:
     - search.share # deep linking
 
   # setup header ---------------------------------------------
-    - header.autohide
+    - header.autohide # autohide header
     # - announce.dismiss
+  # setup footer ---------------------------------------------
+    - navigation.footer # footer navigation
+
 
 
   # tag 
@@ -130,6 +133,17 @@ plugins:
         - tags
 
 
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MahdiHaeri
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mahdi-haeri/
+
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/MahdiHaeri
 
 # for tag
 # extra:
