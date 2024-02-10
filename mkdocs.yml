@@ -89,15 +89,25 @@ theme:
 
     - navigation.top  # back to top button
 
-    # setup the search -----------------------------------------
+  # setup the search -----------------------------------------
     - search.suggest # search suggest completion
     - search.highlight # search highlight
     - search.share # deep linking
 
-
+  # tag 
+  icon:
+    # tag:
+    #   default: material/tag
+    tag:
+      default: material/tag # default icon
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css:  fontawesome/brands/css3
+  
 
 
 plugins:
+  - tags: 
   - search # search plugin
   - social # social media links (card)
   - blog:   # blog plugin
@@ -113,6 +123,15 @@ plugins:
       categories:
         - categories
         - tags
+
+
+
+# for tag
+extra:
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
 
 
 # markdown_extensions:
