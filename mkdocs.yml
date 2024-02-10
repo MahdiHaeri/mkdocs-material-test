@@ -20,14 +20,8 @@ nav:
     - about.md
     - about.md
     - about.md
-  - Blog: 
-    - blog.md
-    - blog.md
-    - blog.md
-    - blog.md
-    - blog.md
-    - blog.md
-    - blog.md
+  - Blog:
+    - blog/index.md
 
 # Setup 
 
@@ -105,7 +99,20 @@ theme:
 
 plugins:
   - search # search plugin
-  - social # social media links
+  - social # social media links (card)
+  - blog:   # blog plugin
+      blog_dir: blog # blog directory
+      blog_toc: true # blog table of content
+      post_date_format: full
+      post_url_date_format: yyyy/MM/dd
+      # authors_profiles: true
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
 
 
 # markdown_extensions:
