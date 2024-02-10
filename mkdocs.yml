@@ -94,6 +94,11 @@ theme:
     - search.highlight # search highlight
     - search.share # deep linking
 
+  # setup header ---------------------------------------------
+    - header.autohide
+    # - announce.dismiss
+
+
   # tag 
   icon:
     # tag:
@@ -127,11 +132,11 @@ plugins:
 
 
 # for tag
-extra:
-  tags:
-    HTML5: html
-    JavaScript: js
-    CSS: css
+# extra:
+#   tags:
+#     HTML5: html
+#     JavaScript: js
+#     CSS: css
 
 
 # markdown_extensions:
