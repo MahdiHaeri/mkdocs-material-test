@@ -103,10 +103,9 @@ theme:
   # setup footer ---------------------------------------------
     - navigation.footer # footer navigation
 
-
-
   # tag 
   icon:
+    repo: fontawesome/brands/github
     # tag:
     #   default: material/tag
     tag:
@@ -115,6 +114,11 @@ theme:
       js: fontawesome/brands/js
       css:  fontawesome/brands/css3
   
+markdown_extensions:
+  - abbr
+  - admonition # support for admonitions
+  - pymdownx.details # support for admonitions with collapse
+  - pymdownx.superfences
 
 
 plugins:

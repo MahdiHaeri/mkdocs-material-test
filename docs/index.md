@@ -8,7 +8,51 @@ tags:
 
 # Welcome to MkDocs Homepage
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The HTML specification is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+
+
+!!! note 
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+!!! question "Changeing the title "
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+??? tip "this is a collapsing admonition"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+???+ tip "this is a collapsing admonition expanded "
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+??? example inline end "Inline end admonition"
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
+
+???+ bug inline "Inline end admonition"
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
 
 ## Commands
 
