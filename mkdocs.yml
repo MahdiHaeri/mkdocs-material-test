@@ -1,5 +1,8 @@
 site_name: My Docs
 site_url: https://mahdihaeri.github.io/mkdocs-material-test/
+repo_url: https://github.com/MahdiHaeri/mkdocs-material-test
+repo_name: MahdiHaeri/mkdocs-material-test
+
 
 nav:
   - Home: index.md
